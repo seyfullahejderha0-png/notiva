@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "955249476929",
+    "project_id": "notiva-ca2f6",
+    "storage_bucket": "notiva-ca2f6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955249476929:android:87b8a9458771a9026e0dc0",
+        "android_client_info": {
+          "package_name": "com.dragon.notiva"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955249476929-4kotlro1iasch0fc4l5ut7f497kuphj0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdyp3W0h3H7w0g6Lu-35evaZ1VQP-hnfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955249476929-4kotlro1iasch0fc4l5ut7f497kuphj0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "955249476929-1l2gfpitov4s4bvhrm5iv4b04b7kreca.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nexus.nexusApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955249476929:android:7541071defb701596e0dc0",
+        "android_client_info": {
+          "package_name": "com.example.nexus_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955249476929-587mb3183abkujktoq208msptrm29jm8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nexus_app",
+            "certificate_hash": "cdb8afb71031ca35005de6794d3902c892526528"
+          }
+        },
+        {
+          "client_id": "955249476929-4kotlro1iasch0fc4l5ut7f497kuphj0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdyp3W0h3H7w0g6Lu-35evaZ1VQP-hnfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955249476929-4kotlro1iasch0fc4l5ut7f497kuphj0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "955249476929-1l2gfpitov4s4bvhrm5iv4b04b7kreca.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nexus.nexusApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955249476929:android:0dd47611c4b4f64e6e0dc0",
+        "android_client_info": {
+          "package_name": "com.nexus.nexus_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955249476929-4kotlro1iasch0fc4l5ut7f497kuphj0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdyp3W0h3H7w0g6Lu-35evaZ1VQP-hnfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955249476929-4kotlro1iasch0fc4l5ut7f497kuphj0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "955249476929-1l2gfpitov4s4bvhrm5iv4b04b7kreca.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nexus.nexusApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

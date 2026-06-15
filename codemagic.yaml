@@ -1,0 +1,53 @@
+workflows:
+  ios-release:
+    name: iOS Release Build
+    max_build_duration: 120
+    instance_type: mac_mini_m1
+    environment:
+      groups:
+        - apple_credentials # Codemagic UI üzerinden tanımlayacağınız API key grubu
+      vars:
+        XCODE_WORKSPACE: "ios/Runner.xcworkspace"
+        XCODE_SCHEME: "Runner"
+        BUNDLE_ID: "com.nexus.nexusApp"
+      flutter: stable
+      xcode: latest
+      cocoapods: default
+
+    triggering:
+      events:
+        - push
+      branch_patterns:
+        - target: main
+          source: '*'
+
+    scripts:
+      - name: Initialize keychain and fetch signing profiles
+        script: |
+          keychain initialize
+          app-store-connect fetch-signing-files "$BUNDLE_ID" --project-type ios --create
+          keychain add-certificates
+          xcode-project use-profiles
+
+      - name: Get Flutter dependencies
+        script: |
+          flutter packages pub get
+
+      - name: Build iOS IPA
+        script: |
+          flutter build ipa --release \
+            --export-options-plist=$HOME/export_options.plist \
+            --build-name=1.0.1 \
+            --build-number=$BUILD_NUMBER
+
+    artifacts:
+      - build/ios/ipa/*.ipa
+
+    publishing:
+      email:
+        recipients:
+          - seyfullahejderha0@gmail.com # Bildirimler için e-posta adresi
+      app_store_connect:
+        auth: integration # App Store Connect API Key entegrasyonu kullanır
+        submit_to_testflight: true
+        submit_to_app_store: false

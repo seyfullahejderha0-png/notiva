@@ -1,0 +1,30 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "notiva-ca2f6",
+          "appId": "1:955249476929:android:0dd47611c4b4f64e6e0dc0",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "notiva-ca2f6",
+          "configurations": {
+            "android": "1:955249476929:android:0dd47611c4b4f64e6e0dc0",
+            "ios": "1:955249476929:ios:1433c9f0633e911c6e0dc0",
+            "web": "1:955249476929:web:2afc8c3768eaa7596e0dc0"
+          }
+        }
+      }
+    }
+  }
+}

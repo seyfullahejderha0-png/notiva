@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>955249476929-1l2gfpitov4s4bvhrm5iv4b04b7kreca.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.955249476929-1l2gfpitov4s4bvhrm5iv4b04b7kreca</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>955249476929-587mb3183abkujktoq208msptrm29jm8.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDKQi8thzlqQa-RnQ8yDOU3sPwqyhlwexQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>955249476929</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.nexus.nexusApp</string>
+	<key>PROJECT_ID</key>
+	<string>notiva-ca2f6</string>
+	<key>STORAGE_BUCKET</key>
+	<string>notiva-ca2f6.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:955249476929:ios:1433c9f0633e911c6e0dc0</string>
+</dict>
+</plist>
