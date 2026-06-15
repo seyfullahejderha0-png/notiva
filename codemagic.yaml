@@ -9,7 +9,7 @@ workflows:
       vars:
         XCODE_WORKSPACE: "ios/Runner.xcworkspace"
         XCODE_SCHEME: "Runner"
-        BUNDLE_ID: "com.nexus.nexusApp"
+        BUNDLE_ID: "com.notivaapp.notiva"
       flutter: stable
       xcode: latest
       cocoapods: default
