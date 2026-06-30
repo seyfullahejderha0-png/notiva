@@ -12,7 +12,7 @@ workflows:
         XCODE_WORKSPACE: "ios/Runner.xcworkspace"
         XCODE_SCHEME: "Runner"
       flutter: stable
-      xcode: latest
+      xcode: 16.2   # Xcode 26 beta yerine stabil 16.2 kullanıyoruz
       cocoapods: default
 
     triggering:
